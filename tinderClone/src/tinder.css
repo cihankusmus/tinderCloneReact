@@ -1,0 +1,69 @@
+.tinderCard{
+    display: inline-block;
+    width: 350px;
+    max-width: 375px;
+    height: 600px;
+    padding-bottom: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: absolute;
+    will-change: transform;
+    transition: all 0.3s ease-in-out;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: grab;
+    background-color: rgb(25, 28, 31);
+    transform: translate(-50%);
+}
+.tinderCardImg img{
+    max-width: 100%;
+    pointer-events: none;
+}
+.userInfo{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 130px;
+    width: 275px;
+    height: 43px;
+    flex-shrink: 0;
+    margin-top: -90px;   
+    margin-left: 40px;
+}
+.userInfo h3{
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 16px;
+    pointer-events: none;
+}
+.userInfo p {
+    margin-top: 50px;
+    pointer-events: none;
+    font-family: 'Open Sans';
+    color: #FFF;
+}
+.subIcon{
+    display: inline-block;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    bottom: 0;
+    padding-left: 75px;
+}
+.subIcon button{
+    border-radius: 80%;
+    background-color: #FFF;
+    border: 0;  
+    margin: 10px 8px;
+}
+
+.subIcon img{
+    margin-top: 8px;
+}
+.subIcon button:focus {
+    outline: 0;
+}
